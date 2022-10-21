@@ -5,6 +5,7 @@ font-family: 'Montserrat', sans-serif !important;
 
 }
 
+
 #header{
    position: absolute;
    z-index: 10;
@@ -83,9 +84,24 @@ font-family: 'Montserrat', sans-serif !important;
  /* login-page */
 
  #login-page{
-   background-color: #FC8621;
+   background-color: #FF577F;
  }
 
  .title-h3{
    margin-bottom: 1.5rem;
+   font-family: "Montserrat-Black";
+    font-size: 4.2rem;
+    line-height: 1.5;
+    color: #fff;
  }
+
+ /* footer */
+
+ .foot-icon {
+   margin: 20px 10px;
+
+}
+
+.p-foot{
+   line-height: 3;
+}
