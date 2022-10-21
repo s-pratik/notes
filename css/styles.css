@@ -60,7 +60,7 @@ font-family: 'Montserrat', sans-serif !important;
 
 .main{
    position: relative;
-   background: url("./images/title.png");
+   background: url("/notes/images/title.png");
    min-height: 90vh;
    background-size: cover;
    background-position: center;
