@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notas</title>
 
-  <!-- bootstrap -->
+  <!-- css -->
+
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -20,65 +24,90 @@
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
 
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/5f7afd94f8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
 
-    <!-- font styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/5f7afd94f8.js" crossorigin="anonymous"></script>
+
+  <!-- font styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <section id="header">
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark p-md-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        Notas
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-home nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-notes nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Notes
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">First Year</a></li>
-              <li><a class="dropdown-item" href="#">Second Year</a></li>
-              <li><a class="dropdown-item" href="#">Third Year</a></li>
-              <li><a class="dropdown-item" href="#">Final Year</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-feat nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-syll nav-link" href="#">Syllabus</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-login nav-link" href="#">Login/Register</a>
-          </li>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-md-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" width="30" height="28" class="d-inline-block align-text-top">
+          Notas
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-home nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-notes nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Notes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">First Year</a></li>
+                <li><a class="dropdown-item" href="#">Second Year</a></li>
+                <li><a class="dropdown-item" href="#">Third Year</a></li>
+                <li><a class="dropdown-item" href="#">Final Year</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-feat nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-syll nav-link" href="#">Syllabus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-login nav-link" href="#">Login/Register</a>
+            </li>
 
-        </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- title -->
+    <div class="header-title">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="title-h1">Inspired By Students,Made By Students.</h1>
+        </div>
+
+        <!-- <div class="col-lg-6">
+          <img class="title-img" src="images/mockup.png" alt="iphone-mockup">
+        </div> -->
+
       </div>
     </div>
-  </nav>
-</section>
+
+  </section>
 
 
 
-  <!-- title -->
+
   <section class="main">
+    <!-- main working in css part. -->
   </section>
 
 
@@ -112,6 +141,88 @@
     </div>
   </section>
 
+  <!-- carousel -->
+
+  <section class="carousel-sect" id="carousel">
+    <div class="container-fluid">
+      <h1 class="text-center fw-bold display-1 mb-5">Study <span class="text-danger">Materials</span></h1>
+      <div class="row">
+        <div class="col-12 m-auto">
+          <div class="nav-caro owl-carousel owl-theme">
+            <div class="item mb-4">
+              <div class="car-item0 card border-0 shadow">
+                <img src="images/pyq.png" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <h4>Previous Year Question Paper</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="car-item1 card border-0 shadow">
+                <img src="images/handwritten.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <h4>Handwritten Notes</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="car-item2 card border-0 shadow">
+                <img src="images/books.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <h4>Publication Notes</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="car-item3 card border-0 shadow">
+                <img src="images/engg.png" alt="" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title text-center">
+                    <h4>First Year Engineering</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"></script>
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+
+  </section>
+
   <!-- Login Page -->
 
   <section id="login-page">
@@ -143,7 +254,7 @@
       <a class="foot-icon" href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
       <a class="foot-icon" href=""><i class="fa-solid fa-envelope fa-lg"></i></a>
 
-    <p class="p-foot">© Copyright NOTAS</p>
+      <p class="p-foot">© Copyright Notas</p>
 
   </footer>
 
