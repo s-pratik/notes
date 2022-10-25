@@ -76,7 +76,7 @@ p {
 
 .main {
    position: relative;
-   background: url("/notes/images/title.png");
+   background: url("/images/title.png");
    min-height: 90vh;
    background-size: cover;
    background-position: center;
@@ -95,27 +95,21 @@ p {
    text-align: left;
 }
 
-/* .title-img {
-   transform: rotate(25deg);
+.title-img {
+   transform: rotate(20deg);
    position: absolute;
    width: 53%;
    right: 2%;
    top: 25%;
-} */
+}
 
-/* @media (max-width : 991px) {
-
-   #title {
-       text-align: center;
-   }
+@media (max-width : 991px) {
 
    .title-img {
-       position: static;
-       transform: rotate(0);
-       width: 60%;
+       visibility: hidden;
 
    }
-} */
+}
 
 
 
